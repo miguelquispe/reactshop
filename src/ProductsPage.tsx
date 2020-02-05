@@ -1,6 +1,7 @@
 import * as React from 'react';
 import {IProduct, products} from './ProductData';
 import { Link, RouteComponentProps } from 'react-router-dom';
+import "url-search-params-polyfill";
 
 interface IState {
   products: IProduct[];
