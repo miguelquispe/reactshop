@@ -8,8 +8,6 @@ interface IState {
   search: string;
 }
 
-
-
 class ProductsPage extends React.Component<RouteComponentProps, IState> {
   public constructor(props: RouteComponentProps) {
     super(props)
