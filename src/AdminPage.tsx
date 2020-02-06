@@ -43,7 +43,7 @@ const AdminUsers: React.FC = () => {
     <div>
       <ul className="admin-sections">
         {adminUsersData.map(user => (
-        <li>
+        <li key={user.id}>
           <NavLink to={`/admin/users/${user.id}`} activeClassName="admin-link-active">
             {user.name}
           </NavLink>
